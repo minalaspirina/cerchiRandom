@@ -14,9 +14,10 @@ function draw() {
   let red = random(0, 255)
   let green = random(0, 255)
   let black = random(0,255)
+  let alpha = random(0,255)
 
 
   circle(x, y, diameter)
   strokeWeight(2)
-  fill(red, green, black)
+  fill(red, green, black,alpha)
   }
